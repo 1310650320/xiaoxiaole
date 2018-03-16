@@ -1,0 +1,16 @@
+
+	wx_wow = new WOW({
+		boxClass:     'wow',      // 需要执行动画的元素的 class（默认为wow）
+		animateClass: 'animated', // 动画CSS类（默认为animated）
+		offset:       0,          // 触发动画时的元素距离（默认为0）
+		mobile:       true,       // 在移动设备上触发动画（默认为true）
+		live:         true,       // 异步加载内容（默认为true）
+		callback:     function(box) {
+		}
+	});
+	wx_wow.init();
+	//wx_wow.start(); //重载效果
+	//data-wow-duration 改变动画时间
+	//data-wow-delay 延迟在动画开始之前
+	//data-wow-offset 距离开始动画(有关浏览器底部)
+	//data-wow-iteration 动画重复的次数

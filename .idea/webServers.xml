@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="818b9349-4ce7-4aa3-b2a8-c330adfbe9ba" name="duiduipeng" url="http://happy.test.weikaiqi.com">
+        <fileTransfer host="happy.test.weikaiqi.com" port="21" password="dff9dfcfdf9fdfcbdfecdfdedfc7dfc1dfecdfe4" username="happy">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

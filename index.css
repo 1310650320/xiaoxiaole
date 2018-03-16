@@ -1,0 +1,31 @@
+/*通用样式*/
+html {height:100%;}
+body{background:url(img/game_bottom.jpg) center bottom no-repeat #fef3ed;
+	background-size:100% auto;height:100%;}
+.m{z-index:1;position: relative;overflow: hidden;}
+
+.gamelogo{text-align:center;margin-top:25px;}
+.gamelogo img{width:100%;}
+.gameml{text-align:center;padding-bottom:15px;}
+.gameml img{width:320px;}
+.gamean{width:160px;margin:0 auto;display: block;position: relative;}
+.gamean img{width:100%;}
+.gamean h3{margin: 0; display: block;position: absolute;width:100%; top:13px;left: 0;text-align: center;font-size:1.8rem;color:#fff;font-weight:600;}
+.game-footer{color:#fff;background: rgba(0,0,0,.5);text-align: center;line-height:35px;position: fixed;bottom:0;left:0;width:100%;}
+
+.paihang{padding-top:10px;position: absolute;left:0;width:100%;bottom:10px;}
+.paihang ul{margin:0 auto;}
+.paihang .tab-content{padding-top:15px;}
+.paihang .tab-pane li{line-height:25px;border-bottom:1px dashed rgba(0,0,0,.1);padding-bottom:5px;margin-bottom:5px;text-align: left;font-size:14px;color:#fff;}
+.paihang .tab-pane li span{width:25px;border-radius:50%;overflow: hidden;display: block;float: left;}
+.paihang .tab-pane li span img{min-height:25px;display: block;}
+.paihang .tab-pane li strong{margin-left:6px;}
+.paihang .tab-pane li b{font-size:16px;color:#FF5454;}
+.modal-dialog{background-color:rgba(0,0,0,.6);}
+.modal-header{color:#fff;}
+.modal-header .close{color:#fff;}
+.modal-body{padding:10px;color:#fff;}
+.modal-body a{color:#fff;}
+.modal-body .nav-tabs{width:100%;margin:10px auto 0;}
+.modal-body .nav-tabs>li>a {color: #fff;}
+.modal-body .nav-tabs>li.active>a{color: #333;}
